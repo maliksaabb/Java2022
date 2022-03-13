@@ -1,6 +1,6 @@
-package methods;
+package java_basics.methods;
 
-public class IntroToMethods {
+public class LearnMethods {
 
     /*
     Methods
@@ -20,6 +20,9 @@ public class IntroToMethods {
         doSomething();
         int z = doSomethingElse();
         System.out.println(5 + z); // 5510
+
+        int sum = getSum();
+        System.out.println(sum);
     }
 
     static void doSomething() {
@@ -34,4 +37,12 @@ public class IntroToMethods {
         return x + y;
     }
 
+    // Method names should almost always start with a verb (get, do, verify, etc)
+    static int getSum() {
+        int a = 10;
+        int b = 20;
+
+        System.out.println(a + b);
+        return a + b;
+    }
 }

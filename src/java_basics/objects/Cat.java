@@ -1,4 +1,4 @@
-package objectPractice;
+package java_basics.objects;
 
 public class Cat {
 

@@ -1,28 +1,27 @@
-package objectPractice;
+package java_basics.objects;
 
-public class ObjPractice {
+public class LearnObjects {
     // Constructor - Is implicit to every class, whether you explicitly declare it or not
     // A constructors job is to create or CONSTRUCT objects of that class
-
     // This is a constructor
-    ObjPractice(){
+    LearnObjects(){
 
     }
 
-    String name = "Thuwaiba";
-
     public static void main(String[] args) {
         /*
-         When we initialize a variable, the declaration includes:
+         When we initialize a variable, the initialization statement includes:
          1. Data Type
          2. Name of variable
          3. Assignment Operator
          4. Value we would like to assign to the variable
+
+         The same is true when creating an object
          */
 
         int age = 20;
 
-        // Romeo is a reference variable
+        // Romeo is a reference variable of type Cat
         Cat romeo = new Cat();
         romeo.name = "Romeo";
         romeo.age = 2;
@@ -30,6 +29,7 @@ public class ObjPractice {
         romeo.color = "Gray";
         romeo.gender = "Male";
 
+        // Rex is another reference variable, pointing at a new object of type Cat
         Cat rex = new Cat();
         rex.name = "Rex";
         rex.gender = "Male";
@@ -37,11 +37,11 @@ public class ObjPractice {
         rex.hasFur = true;
         rex.age = 5;
 
-//        System.out.println(romeo.name);
-//        System.out.println(rex.name);
-//
-//        romeo.meow();
-//        rex.meow();
+        System.out.println(romeo.name);
+        System.out.println(rex.name);
+
+        romeo.meow();
+        rex.meow();
 
         System.out.println(romeo);
         System.out.println(rex);

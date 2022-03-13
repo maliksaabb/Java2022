@@ -1,6 +1,6 @@
-package variablesAndDataTypes;
+package java_basics.data_types;
 
-public class DataTypes {
+public class LearnDataTypes {
 
     // 1 Byte of memory
     byte minByte = -128;

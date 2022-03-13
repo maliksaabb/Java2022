@@ -1,6 +1,6 @@
-package casting;
+package java_basics.data_types;
 
-public class CastingPractice {
+public class LearnCasting {
 
     public static void main(String[] args) {
 

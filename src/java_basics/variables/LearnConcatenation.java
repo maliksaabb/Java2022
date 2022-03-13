@@ -1,6 +1,6 @@
-package variablesAndDataTypes;
+package java_basics.variables;
 
-public class Concatenation {
+public class LearnConcatenation {
 
     static String word1 = "Hello";
     static String char1 = ",";

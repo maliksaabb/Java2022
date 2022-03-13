@@ -1,6 +1,4 @@
-package staticKeyword;
-
-import testPackage.Dog;
+package java_basics.learn_static;
 
 public class LearnStatic {
 
@@ -23,6 +21,12 @@ public class LearnStatic {
 
         System.out.println(fido.breed);
         System.out.println(airBud.breed);
+
+        /*
+         NOTE: We should always call static members of classes using ClassName, and not using references, such as we
+               see below. The correct way to call 'typeOfAnimal' would be 'Dog.typeOfAnimal', since it is static and
+               belongs to the class, and not the instances of the class
+         */
 
         System.out.println(fido.typeOfAnimal);
         System.out.println(airBud.typeOfAnimal);

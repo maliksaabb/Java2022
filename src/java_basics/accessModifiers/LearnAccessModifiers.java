@@ -1,6 +1,6 @@
-package methods.accessModifiers;
+package java_basics.accessModifiers;
 
-class AccessModifiers {
+class LearnAccessModifiers {
 
     public static int x = 5;
     public static int y = 10;

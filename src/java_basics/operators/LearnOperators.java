@@ -1,6 +1,6 @@
-package variablesAndDataTypes;
+package java_basics.operators;
 
-public class Operators {
+public class LearnOperators {
 
     public static void main(String[] args) {
         int x = 5;

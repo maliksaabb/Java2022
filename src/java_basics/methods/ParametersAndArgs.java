@@ -1,4 +1,4 @@
-package methods;
+package java_basics.methods;
 
 public class ParametersAndArgs {
 
